@@ -31,3 +31,8 @@
 - 배열의 처음을 pivot 으로 설정하고 left / right 를 pivot과 비교하며 left > right 인 경우 pivot 과 right 위치를 바꾼 후 정렬되지 않은 부분에 대해 반복 수행
 - left == start 또는 left == end, left > right 인 경우를 언제 확인할 수 있을 지 다양한 경우를 찾아내고 해결하는 것이 중요
 
+# Heap Sort
+
+- [여기](https://yabmoons.tistory.com/246) 를 참고
+- 배열을 Max / Min Heap 형태로 만드는 것부터 시작 (Root 바로 아래 노드를 차례대로 Max / Min Heap 화 시켜감)
+- 정렬은 Root 노드와 마지막 노드를 교환하여 Heapify 반복 (이 때 Left / Right 자식 노드 중 큰 것을 선택)
